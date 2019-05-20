@@ -1,0 +1,748 @@
+/* ---- MEDIA QUERIES ----------------------------------------------------------------*/
+
+/****** THIS IS SPECIFICALLY FOR WINDOWS PHONES ******/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* -----------------------------------------------------------------------------------*/
+
+/** MINI DESKTOP **/
+@media (min-width: 992px) and (max-width: 1199px){
+/* index page */
+.single-lg-blog-event-cap h6 {
+  font-size: 22px;
+  line-height: 33px;
+}
+.tag-date {
+  font-size: 17px;
+  line-height: 25px;
+}
+.bottom-menu-typoo nav > ul > li > a {
+  font-size: 18px;
+  padding: 15px 15px;
+}
+.sup-mega-menu > ul > li > a {
+  font-size: 14px;
+}
+.sup-mega-menu > ul > li {
+  padding: 0 15px;
+}
+.img-capdon,
+.img-capdon > img {
+  height: 150px;
+}
+.donate-backpo .yellow-link.don1 {
+  padding: 10px;
+  font-size: 14px;
+}
+.donate-backpo-cap > h6 {
+  font-size: 17px;
+  line-height: 23px;
+}
+.mega-menu {
+	width: 710px;
+}
+.mega-menu > ul > li > a {
+  font-size: 15px;
+}
+.social-sect li {
+  margin: 0 5px 15px 0;
+}
+.menu-social-sect {
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+}
+.social-sect li {
+  margin: 0 10px 15px 0;
+}
+.social-sect li:last-child,
+.menu-sect {
+  margin-right: 0;
+}
+.social-sect {
+  margin-top: 10px;
+}
+/* index page */
+/* gallery page */
+.gallery-progress ul li {
+  margin-bottom: 35px;
+}
+.gallery-progress {
+  padding: 15px 20px;
+}
+/* gallery page */
+/* rmhc-news page */
+.thumb-rmhc-news,
+.thumb-rmhc-news a img {
+  height: 250px;
+}
+/* rmhc-news page */
+/* index-v2 page */
+.share-night-layer1 {
+  margin-right: 3%;
+  width: 45%;
+}
+.share-night-v2 li {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+.share-night-v2 {
+  padding: 70px 8% 80px 5%;
+}
+.desktop-volunteer .peoples {
+  right: -35px;
+  top: 45px;
+  width: 80px;
+}
+/* index-v2 page */
+
+}
+/** MINI DESKTOP **/
+
+/** TABLET **/
+@media (min-width: 768px) and (max-width: 991px){
+/* index page */
+.bottom-menu-typoo {
+  margin-top: 10px;
+}
+.bottom-menu-typoo nav > ul > li > a {
+  font-size: 16px;
+  padding: 15px 15px;
+}
+.mega-menu {
+  width: 720px;
+}
+.donate-backpo .yellow-link.don1 {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+.bottom-menu-typoo nav > ul > li > a {
+  font-size: 18px;
+  padding: 15px 15px;
+}
+.sup-mega-menu > ul > li > a {
+  font-size: 14px;
+}
+.sup-mega-menu > ul > li {
+  padding: 0 15px;
+}
+.img-capdon,
+.img-capdon > img {
+  height: 150px;
+}
+.donate-backpo-cap > h6 {
+  font-size: 17px;
+  line-height: 23px;
+}
+.mega-menu > ul > li > a {
+  font-size: 15px;
+}
+.carousel-caption {
+  bottom: 20%;
+}
+.share-night {
+  background: rgba(0, 0, 0, 0) url("../images/bg/homepage-banner2.jpg") no-repeat scroll center center / cover ;
+  padding: 40px 25px;
+  width: 100%;
+}
+.share-a-night-area {
+  height: auto;
+  background: none;
+}
+.form-redbooz::before {
+  left: calc(50% - 20px);
+  top: -20px;
+}
+.form-redbooz {
+  padding: 30px 0;
+  width: 100%;
+}
+.redbooz-form-group button {
+  margin-top: 15px;
+}
+.single-lg-blog-event {
+  margin-bottom: 35px;
+}
+.news-letter-sect {
+  padding: 0;
+}
+.bottom-menu-typoo a {
+  font-size: 16px;
+}
+/* index page */
+/* donate-v1 page */
+.thumbnail-img > img {
+  height: 200px;
+}
+.donate-group-panel li h5 {
+  font-size: 25px;
+}
+.donate-info-area {
+  padding: 30px 0 50px;
+}
+.spider-head h2 {
+  line-height: 36px;
+}
+/* donate-v1 page */
+/* RMHC EVENTS V1 PAGE */
+.cp-rmhc > h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.cp-rmhc > span {
+  font-size: 19px;
+  line-height: 23px;
+}
+/* RMHC EVENTS V1 PAGE */
+/* news-v1 page */
+.align-text > img {
+  display: block;
+  float: unset;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+/* news-v1 page */
+/* gallery page */
+.youtube-link > iframe {
+  height: 350px;
+}
+.prog-desc > span {
+  font-size: 17px;
+  line-height: 19px;
+}
+.gallery-progress ul li {
+  margin-bottom: 20px;
+}
+.gallery-slider #sync1 .item, .gallery-progress {
+  height: 415px;
+}
+/* gallery page */
+/* rmhc-news page */
+.rmhc-single-blog {
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+}
+.thumb-rmhc-news a img {
+  height: 250px;
+  width: 100%;
+}
+.thumb-rmhc-news {
+  height: 250px;
+  width: 100%;
+  margin-right: 0;
+}
+.content-rmhc-news {
+  width: 100%;
+}
+/* rmhc-news page */
+/* index-v2 page */
+.share-night-volunteer {
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+}
+.desktop-volunteer,
+.share-night-v2 {
+  width: 100%;
+}
+.desktop-volunteer .peoples {
+  right: 0;
+}
+
+/* index-v2 page */
+
+
+}
+/** TABLET **/
+
+/** MOBILE DEVICE **/
+@media (max-width: 767px){
+/* index page */
+.ronald-main-header-area .container > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+}
+.mobile-bar {
+  padding-right: 15px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.mobile-bar i {
+  font-size: 40px;
+  line-height: 30px;
+  color: #ED0000;
+}
+.ronald-main-header-area {
+  padding-bottom: 15px;
+}
+.mobile-bar > a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  line-height: unset;
+  text-decoration: none;
+}
+.mobile-menu > ul > li > a {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 2px solid #292425;
+  color: #231f20;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px 25px 13px 15px;
+  text-decoration: none;
+}
+.mobile-menu a {
+  display: block;
+  outline: none;
+}
+.super-sub {
+  padding: 0 5%;
+  background: #ED0000;
+}
+.mobile-menu li {
+  margin: 0;
+}
+.mobile-menu > ul > li > ul > li > a {
+  border-bottom: 2px solid #292425;
+  background: #FCB200;
+  color: #231f20;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 10px 15px 10px;
+  text-decoration: none;
+}
+.mobile-menu > ul > li > ul > li > ul > li > a {
+  border-bottom: 2px solid #FCB200;
+  background: #ED0000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.mobile-menu li.sup a{
+	background: #ED0000;
+	color: #fff;
+}
+.mobile-menu li.sup {
+	border-bottom: 2px solid #292425;
+}
+.super-sub li:last-child > a {
+  border-bottom: medium none;
+}
+.mobile-menu .don1{
+	background: #ED0000;
+	text-align: center;
+	color: #fff;
+}
+.spant::after {
+  color: inherit;
+  content: "\f0d7";
+  font-family: fontawesome;
+  position: absolute;
+  right: 0;
+}
+.spant {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.mobile-menu {
+  min-height: 1000px;
+}
+.invisible{
+	display: none;
+}
+.homepage-slider-banner > img,
+.homepage2-slider-banner > img {
+  height: 300px;
+  width: 100%;
+}
+.homepage-slider-area,
+.homepage2-slider-area {
+  background: #fff;
+  padding: 40px 25px;
+}
+.homepage-slider-area .carousel,
+.homepage2-slider-area .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column-reverse wrap;
+      flex-flow: column-reverse wrap;
+}
+.carousel-inner > .item {
+  height: auto;
+  min-height: auto;
+}
+.stable-caption-content h1 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.stable-caption-content > p {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.carousel-caption {
+  position: unset;
+  padding: 0;
+}
+.carousel-indicators {
+  position: unset;
+  width: 100%;
+  margin: 30px 0 0;
+}
+.type-img-blogevent {
+  display: none;
+}
+.family-caption {
+  height: 320px;
+  margin: 0 0 10px;
+}
+.mobile-donate-form-area .redbooz-form-group button {
+  display: block;
+  width: 100%;
+}
+.mobile-share-a-night-area {
+  background: rgba(0, 0, 0, 0) url("../images/bg/homepage-banner2.jpg") no-repeat scroll center center / cover ;
+  padding: 50px 0 70px;
+}
+.mobile-share-a-night-area .share-night {
+  padding: 0;
+  width: 100%;
+}
+.mobile-share-a-night-area .yellow-link {
+  display: block;
+  text-align: center;
+}
+.menu-social-sect {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+.mobile-volunteer-area {
+  background: -webkit-linear-gradient(rgba(237, 0, 0, 0.9), rgba(237, 0, 0, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/bg/home-mobile-banner1.jpg") no-repeat scroll center center / cover ;
+  background: linear-gradient(rgba(237, 0, 0, 0.9), rgba(237, 0, 0, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/bg/home-mobile-banner1.jpg") no-repeat scroll center center / cover ;
+  padding: 40px 0 30px;
+}
+.mobile-volunteer > h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.mobile-volunteer > p {
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.peoples {
+  display: inline-block;
+}
+.share-night li {
+  color: #231f20;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.share-night li > img {
+  display: inline-block;
+  margin-right: 9px;
+  vertical-align: middle;
+}
+.share-night > ul {
+  margin-bottom: 35px;
+}
+.mobile-donate-form-area {
+  background: #ed0000 none repeat scroll 0 0;
+  padding: 40px 0 30px;
+  position: relative;
+}
+.mobile-donate-form-area .redbooz-form-group button {
+  margin-top: 20px;
+}
+
+.family-story-head {
+  padding-bottom: 30px;
+}
+.align-label {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
+          align-items: flex-start;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  padding: 0 0 15px;
+  border-bottom: 2px solid #292425;
+  margin-bottom: 20px;
+}
+.rmhc-events-area {
+  padding: 30px 0;
+}
+
+.social-sect li {
+  margin: 0 10px 20px;
+}
+.widget-pound-panel h6 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.news-letter-sect {
+  margin-bottom: 40px;
+}
+/* index page */
+/* contact page */
+.contact-ins-singleb > img {
+  height: 350px;
+  margin-bottom: 20px;
+}
+.contact-ins-singleb {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contact-form-area {
+  padding: 35px 0 20px;
+}
+.cont-form-grp .submit-red {
+  float: unset;
+  width: 100%;
+}
+/* contact page */
+/* donate-v2 page */
+.donate-group-panel li {
+  margin: 0 5% 40px;
+  padding: 0 5%;
+  width: 90%;
+}
+.donate-group-panel li:nth-child(2n) {
+  border: medium none;
+}
+.donate-group-panel-area .spider-head h1 {
+  text-align: center;
+}
+.donate-info-area img{
+	text-align: center;
+}
+.donate-info-area .red-link {
+  margin-bottom: 25px;
+}
+.donate-info-area {
+  padding: 30px 0;
+}
+/* donate-v2 page */
+/* rmhc-events-v1 page */
+.cp-rmhc > h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.cp-rmhc > span {
+  font-size: 19px;
+  line-height: 23px;
+}
+.rmhc-all-events .type-text-blogevent > h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.rmhc-events-v1-area {
+  padding: 40px 0;
+}
+.rmhc-events-v1-blogs-panel {
+  padding: 10px 0;
+}
+/* RMHC EVENTS V1 PAGE */
+/* news-v1 page */
+.news-v1-aside {
+  margin-top: 50px;
+}
+.news-v1-area {
+  padding: 45px 0 50px;
+}
+/* news-v1 page */
+/* services-v1 page */
+.services-v1-area {
+  padding: 45px 0 50px;
+}
+/* services-v1 page */
+/* donate-v2 page */
+input.type-box {
+  margin: 15px 0 0;
+  width: 100%;
+}
+.gift-pane h4 {
+  font-size: 22px;
+  line-height: 24px;
+}
+.captcha-panel {
+  overflow: hidden;
+}
+/* donate-v2 page */
+/* gallery page */
+.prog-desc > span {
+  font-size: 16px;
+  line-height: 19px;
+}
+.gallery-progress ul li {
+  margin-bottom: 25px;
+}
+.gallery-progress {
+  height: 400px;
+}
+.gallery-slider #sync1 .item,
+.youtube-link > iframe {
+  height: 300px;
+}
+.gallery-area .spider-head.flex-head {
+  margin-bottom: 30px;
+}
+/* gallery page */
+/* rmhc-news page */
+.rmhc-single-blog {
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+.thumb-rmhc-news {
+  height: 300px;
+  margin-right: 0;
+  width: 100%;
+}
+.thumb-rmhc-news a img {
+  height: 300px;
+  width: 100%;
+}
+.content-rmhc-news {
+  width: 100%;
+}
+.rmhc-news-blog div.rmhc-single-blog:last-child {
+  border-bottom: medium none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.pagi-menu a {
+  font-size: 17px;
+  line-height: 22px;
+}
+.pagi-menu li {
+  margin: 3px;
+}
+li.previus {
+  margin-right: 5px;
+}
+li.nexts{
+	margin-left: 5px;
+}
+li.previus, li.nexts{
+	position: relative;
+}
+/* rmhc-news page */
+/* donate-with-amazon page */
+.donate-with-amazon-area {
+  padding: 45px 0 50px;
+}
+.add-amazon {
+  margin-top: 30px;
+}
+/* donate-with-amazon page */
+
+
+}
+@media (max-width: 600px){
+/* index page */
+
+/* index page */
+
+
+}
+@media (max-width: 500px){
+/* index page */
+
+/* index page */
+
+
+}
+@media (max-width: 480px){
+/* index page */
+.mobile-volunteer-area {
+  padding: 40px 0 100px;
+}
+.peoples {
+  bottom: -84px;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+/* index page */
+
+
+}
+@media (max-width: 370px){
+/* index page */
+.thumb-rmhc-news,
+.thumb-rmhc-news a img {
+  height: 250px;
+}
+
+/* index page */
+
+
+}
+@media (max-width: 319px){
+/* rmhc-news page */
+.pagi-menu a {
+  font-size: 15px;
+  line-height: 20px;
+}
+.pagi-menu li {
+  margin: 3px;
+}
+li.previus {
+  margin-right: 3px;
+}
+li.nexts{
+	margin-left: 3px;
+}
+li.previus, li.nexts{
+	position: relative;
+}
+.previus::before,
+.nexts::after {
+  margin-right: 0px;
+  margin-left: 0px;
+  top: -1px;
+}
+/* rmhc-news page */
+
+
+}
+/** MOBILE DEVICE **/
+
+
+/** Print Media **/
+@media print {
+
+
+}

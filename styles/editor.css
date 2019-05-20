@@ -1,0 +1,312 @@
+/************************************TEXT STYLE FOR _____________ SITE**************************************/
+
+body {
+	background: #FFFFFF;
+	font-family: 'Crete Round', serif;
+	font-weight: 400;
+}
+
+::-moz-selection {
+	color: #FFFFFF;
+	background: #000000;
+}
+::selection {
+	color: #FFFFFF;
+	background: #000000;
+}
+a {
+  color: #f5ab00;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 3px;
+  text-decoration: none;
+}
+	a:hover,
+	a:focus {
+		color: #f5ab00;
+		text-decoration: underline;
+
+	}
+/***** SMALL FONT SIZES - GLOBAL FONT-FAMILY, COLOR AND OTHER VARIOUS STYLES *****/	
+
+h1 {
+	margin: 0 0 10px;
+	font-size: 36px;
+	line-height: 40px;
+	color: #1A1715;
+	font-weight: 400;
+}
+
+h2 {
+	margin: 0 0 10px;
+	font-size: 28px;
+	line-height: 32px;
+	color: #1A1715;
+	letter-spacing: -1px;
+	font-weight: 400;
+}
+
+h3 {
+	color: #1A1715;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 0 0 10px;
+}
+
+h4 {
+	color: #1A1715;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 0 10px;
+}
+
+h5 {
+	color: #1A1715;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0 0 10px;
+}
+
+h6 {
+	color: #1A1715;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0 0 10px;
+}
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	margin-bottom: 0;
+}
+	
+	li,
+	p {
+		color: #1A1715;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 21px;
+		margin: 0 0 8px;
+	}
+		li {
+			margin: 0 0 8px;
+		}
+		p {
+			margin: 0 0 20px;
+		}
+	
+
+
+@media print {
+
+	h1 {}
+	h2 {}
+	h3 {}
+	h4 {}
+	h5 {}
+	h6 {}
+	p  {}
+	li {}
+	
+}
+
+
+/**************GLOBAL SIZES********/
+.full			{width: 100%; float: left;}
+
+.half			{width: 50%; float: left;}
+
+.third			{width: 33.33%; float: left;}
+.two-third		{width: 66.66%; float: left;}
+
+.forty			{width: 40%; float: left;}
+.sixty			{width: 60%; float: left;}
+
+.quarter		{width: 25%; float: left;}
+.three-quarter	{width: 75%; float: left;}
+	
+	.pr 		{padding-right: 2%;}
+
+/*********** MINI TEMPLATES ***********/
+	.miniTemplate img {
+		height: auto;
+		margin: 0 0 20px;		
+		width: 100%;
+	}
+	.miniTemplate iframe {
+		height: auto;
+		width: 100%;
+	}
+
+
+
+/**min-width: 768px is everything above 768px - tablet and larger *******/
+@media (min-width: 768px) {
+
+
+/************ TEXT STYLES FOR LARGE SCREENS **********/
+	h1 {
+		font-size: 38px;
+		line-height: 42px;
+		margin: 0 0 10px;
+	}
+	
+	h2 {
+		font-size: 32px;
+		line-height: 36px;
+		margin: 0 0 10px;
+	}
+	
+	h3 {
+		font-size: 28px;
+		line-height: 32px;
+		margin: 0 0 10px;
+	}
+	
+	h4 {
+		font-size: 24px;
+		line-height: 28px;
+		margin: 0 0 10px;
+	}
+	
+	h5 {
+		font-size: 21px;
+		line-height: 25px;
+		margin: 0 0 10px;
+	}
+	
+	h6 {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0 0 10px;
+	}
+	li,
+	p {
+		font-size: 18px;
+		line-height: 21px;
+	}
+		li {
+			margin: 0 0 8px;
+		}
+		p {
+			margin: 0 0 20px;
+		}
+		
+
+/************** GLOBAL ************/
+	.full-sm			{width: 100%; float: left;}
+	
+	.half-sm			{width: 50%; float: left;}
+	
+	.third-sm			{width: 33.33%; float: left;}
+	.two-third-sm		{width: 66.66%; float: left;}
+	
+	.forty-sm			{width: 40%; float: left;}
+	.sixty-sm			{width: 60%; float: left;}
+	
+	.quarter-sm		{width: 25%; float: left;}
+	.three-quarter-sm	{width: 75%; float: left;}
+		
+		.pr-sm 		{padding-right: 2%;}
+
+/*********** MINI TEMPLATES ***********/
+	.miniTemplate img {
+		height: auto;
+		margin: 0;
+		width: auto;
+	}
+	.miniTemplate iframe {
+		height: auto;
+		width: auto;
+	}
+
+
+}
+
+/**min-width: 992px is everything above 992px - laptop/smaller desktop and larger  *******/
+@media (min-width: 992px) {
+
+/************ TEXT STYLES FOR LARGE SCREENS **********/
+	h1 {
+		margin: 0 0 10px;
+		font-size: 42px;
+		line-height: 48px;
+	}
+
+	h2 {
+		margin: 0 0 10px;
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	h3 {
+		font-size: 30px;
+		line-height: 34px;
+		margin: 0 0 10px;
+	}
+
+	h4 {
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0 0 10px;
+	}
+
+	h5 {
+		font-size: 21px;
+		line-height: 25px;
+		margin: 0 0 10px;
+	}
+
+	h6 {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0 0 10px;
+	}
+	li,
+	p {
+		font-size: 17px;
+		line-height: 21px;
+	}
+		li {
+			margin: 0 0 8px;
+		}
+		p {
+			margin: 0 0 20px;
+		}
+
+/************** GLOBAL ************/
+	.full-med			{width: 100%; float: left;}
+	
+	.half-med			{width: 50%; float: left;}
+	
+	.third-med			{width: 33.33%; float: left;}
+	.two-third-med		{width: 66.66%; float: left;}
+	
+	.forty-med			{width: 40%; float: left;}
+	.sixty-med			{width: 60%; float: left;}
+	
+	.quarter-med		{width: 25%; float: left;}
+	.three-quarter-med	{width: 75%; float: left;}
+		
+		.pr-med 		{padding-right: 2%;}
+
+
+}
+
+@media (min-width: 1200px) {
+
+}
